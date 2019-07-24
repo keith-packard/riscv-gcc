@@ -1,0 +1,21 @@
+Source: gcc-riscv64-unknown-elf
+Section: devel
+Priority: extra
+Maintainer: Keith Packard <keith.packard@sifive.com>
+Build-Depends: debhelper (>= 12.0.0), m4, libtool,
+        zlib1g-dev, gawk, lzma, xz-utils, patchutils,
+	bison, flex, gettext, texinfo, locales, sharutils, zlib1g-dev,
+	libmpfr-dev, libmpc-dev, libgmp-dev,
+	dejagnu, autogen, lsb-release,
+	binutils-riscv64-unknown-elf,
+	autotools-dev, dpkg-dev
+Standards-Version: 4.3.0
+Homepage: http://keithp.com/
+X-Python-Version: >= 2.7
+
+Package: gcc-riscv64-unknown-elf
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, binutils-riscv64-unknown-elf
+Description: GCC compiler for embedded RISC-V chips
+ Bare metal compiler for embedded RISC-V chips supporting both 64 and 32
+ bit architectures

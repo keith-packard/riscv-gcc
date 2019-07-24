@@ -1,0 +1,5 @@
+gcc-riscv64-unknown-elf (8.2.0.2019.08~rc1-1) unstable; urgency=low
+
+  * Initial packaging
+
+ -- Keith Packard <keithp@keithp.com>  Mon, 22 Jul 2019 14:59:08 -0700
