@@ -1,0 +1,3 @@
+0001-SiFive-CLIC-patches-for-preemptible-and-stack-swappi.patch
+0002-Fix-for-mingw-hosted-gcc-LTO-support.patch
+0003-RISC-V-Add-sifive-7-pipeline-description.patch
