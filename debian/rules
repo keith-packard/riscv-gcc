@@ -57,6 +57,7 @@ configure_flags = \
 	--with-gnu-ld \
 	--with-as=$(target_bin)as \
 	--with-ld=$(target_bin)ld \
+	$(target_tools) \
 	$(build_flags) \
 	CFLAGS_FOR_TARGET='-Os -mcmodel=medany' CXXFLAGS_FOR_TARGET='-Os -mcmodel=medany'
 
